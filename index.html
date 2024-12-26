@@ -14,9 +14,6 @@
         height: 100vh; /* Fallback */
         height: 100dvh; /* Altura dinámica */
         width: 100vw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         font-family: "Inter", serif;
         font-optical-sizing: auto;
         font-weight: 400;
@@ -25,6 +22,10 @@
       #main-container {
         display: inline-block;
         width: 208px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
       }
       p {
         display: block;
