@@ -11,8 +11,9 @@
     <style>
       body {
         position: relative;
-        height: 100vh;
-        width: 100dvw;
+        height: 100vh; /* Fallback */
+        height: 100dvh; /* Altura dinámica */
+        width: 100vw;
         display: flex;
         justify-content: center;
         align-items: center;
