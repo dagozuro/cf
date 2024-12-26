@@ -10,13 +10,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&family=Roboto+Condensed:wght@600&display=swap" rel="stylesheet">
     <style>
       body {
+        position: relative;
+        heigh: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         font-family: "Inter", serif;
         font-optical-sizing: auto;
         font-weight: 400;
         font-style: normal;
       }
+      #main-container {
+        display: inline-block;
+        width: 208px;
+      }
       p {
+        display: block;
+        width: 100%;
         margin: 0;
+        display: flex;
+        justify-content: between;
       }
       h1 {
         font-family: "Roboto Condensed", serif;
@@ -30,8 +44,10 @@
   </head>
   <body>
     <main>
+      <div id="main-container">
         <h1>CUCA FERRÁ</h1>
-      <p>sitio en construcción</p>
+      <p><span>sitio</span><span>en</span><span>construcción</span></p>
+      </div>
     </main>
   </body>
 </html>
